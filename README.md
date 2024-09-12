@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+# To-Do List App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Esta es una aplicación de lista de tareas (To-Do List) desarrollada en React Native. Permite a los usuarios crear, editar, eliminar y gestionar tareas de manera eficiente, con la opción de asignar fechas para cada tarea.
 
-## Get started
+---
 
-1. Install dependencies
+## Características
 
+- **Agregar Tareas**: Crea nuevas tareas con un nombre y una fecha de vencimiento.
+- **Editar Tareas**: Modifica el nombre o la fecha de una tarea existente.
+- **Eliminar Tareas**: Borra tareas que ya no sean necesarias.
+- **Visualización Clara**: Las tareas se muestran en una lista, junto con la fecha asignada.
+- **Almacenamiento**: Las tareas se almacenan en Firebase para garantizar que los datos sean persistentes.
+
+---
+
+## Requisitos
+
+- **Node.js**: v14 o superior
+- **Expo CLI**: v5.0.0 o superior
+- **Firebase**: Configuración de un proyecto de Firebase para el almacenamiento de las tareas
+
+---
+
+## Instalación
+
+1. Clona el repositorio:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/tu-usuario/to-do-list-app.git
+   cd to-do-list-app
